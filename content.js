@@ -207,7 +207,6 @@
 
     checkAdState();
   };
-
   const pageObserver = new MutationObserver(observePlayer);
 
   pageObserver.observe(document.documentElement, {

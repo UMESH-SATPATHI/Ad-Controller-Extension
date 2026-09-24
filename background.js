@@ -87,3 +87,4 @@ chrome.debugger.onDetach.addListener(source => {
     attachedTabs.delete(source.tabId);
   }
 });
+
